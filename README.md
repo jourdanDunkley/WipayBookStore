@@ -11,7 +11,7 @@
 
 This is a Laravel Application built to satisfy the backend developer challenge by Wipay. This application is a web-based bookstore whose primary purpose is serving API requests under a RESTful convention. 
 
-Due to the pandemic, foot traffic to a local bookstore has been diminished. This E-Commerce style web application was built in order to solve this problem. It is the intention that this application will help drive sales and improve customer convenience.
+Due to the pandemic, foot traffic to a local bookstore has been diminished. This e-commerce style web application was built in order to solve this problem. It is the intention that this application will help drive sales and improve customer convenience.
 
 Features of this app are:
 
