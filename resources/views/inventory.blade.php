@@ -35,6 +35,9 @@
         <span class="uppercase text-blue-500 font-bold text-xs italic">    
           Author: {{ $book->author }}
         </span>
+        <span class="uppercase text-blue-500 font-bold text-xs italic">    
+          ISBN: {{ $book->ISBN }}
+        </span>
         <h2 class="text-gray-500 text-5xl">
           {{ $book->title }}
         </h2>
