@@ -35,14 +35,14 @@
         <span class="uppercase text-blue-500 font-bold text-xs italic">    
           Author: {{ $book->author }}
         </span>
-        <span class="uppercase text-blue-500 font-bold text-xs italic">    
-          ISBN: {{ $book->ISBN }}
-        </span>
         <h2 class="text-gray-500 text-5xl">
           {{ $book->title }}
         </h2>
-        <p class="text-lg text-gray-700 py-6">
+        <p class="text-lg text-gray-500 py-3">
           Price: ${{ $book->price }}
+        </p>
+        <p class="text-lg text-gray-500">
+          ISBN: {{ $book->ISBN }}
         </p>
         <hr class="mt-4 mb-8">
       </div>
