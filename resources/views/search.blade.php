@@ -18,8 +18,12 @@
                   {{ $book->title }}
                 </h3>
                 <p class="mt-1 text-sm text-gray-500">{{ $book->author }}</p>
+                <p class="mt-1 text-sm text-gray-500">ISBN: {{ $book->ISBN }}</p>
               </div>
-              <p class="text-sm font-medium text-gray-900">${{ $book->price }}</p>
+              <div class="float-right">
+                <p class="text-sm font-medium text-gray-900">${{ $book->price }}</p>
+                <p class="text-sm font-medium text-gray-900">{{ $book->inventory }} left</p>
+              </div>
             </div>
           </div>
           @if(Auth::check())
