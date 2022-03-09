@@ -38,7 +38,7 @@
         name="inventory" 
         value="{{ $book->inventory }}"
         class="block shadow-5xl mb-5 p-2 w-80 italic placeholder-gray-400">
-      <button class="bg-green-500 block shadow-5xl mb-10 p-2 w-80 uppercase font-bold" type="submit">Submit</button>
+      <button class="bg-black text-white block shadow-5xl mb-10 p-2 w-80 uppercase font-bold" type="submit">Submit</button>
     </div>
   </form>
 </div>
