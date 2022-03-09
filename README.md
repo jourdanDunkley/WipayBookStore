@@ -35,3 +35,32 @@ The views for this application were written using both Laravel Blade Components 
 ## Database Operations 
 
 All database operations were executed using Eloquent, which is an object-relational mapper that comes with Laravel. Each database table comes with a corresponding model which is used to interact with that data. Eloquent made creating, reading, updating and deleting data a seamless process. The database used in this project was MySQL.
+
+## Screenshots
+The following screenshots show the UI that is available to a user with admin access. This is to demonstrate all the functionality offered by the app.
+
+![Screenshot (41)](https://user-images.githubusercontent.com/24196592/157508587-75968f55-61de-4ba1-ac1e-64ad96515a6c.png)
+Main dashboard disaplying all listings currently available. All information about each listing including price, title, author, ISBN and quantity in stock are shown. Both regular users and admin users have access to this page.  Pressing the purchase button for any given listing takes the user to Wipay's payment flow and allows them to complete the purchase using a demo credit card.
+
+![Screenshot (42)](https://user-images.githubusercontent.com/24196592/157509214-836b809c-c33a-42e1-9c35-20771586db66.png)
+Inventory page displaying all listings and allowing the user to perform CRUD operations on any given listing. Any field of the listing can be changed, and this page is available only to admin users.
+
+![Screenshot (46)](https://user-images.githubusercontent.com/24196592/157510480-3b084846-a7dc-4cab-ae21-d662d526922b.png)
+This page is displayed when an admin user clicks the "New Listing" Button on the inventory page. This allows the user to create a new listing from scratch and add it to the database. This page is also admin - only access.
+
+![Screenshot (47)](https://user-images.githubusercontent.com/24196592/157510913-86b86eb2-1894-476a-bfcd-1d16f6be0d1f.png)
+This page is displayed when an admin user clicks the "Edit" Button on the inventory page for a given listing. This allows the user to edit any or all fields of the listing and update that listing in the database with the new information. This page is also admin - only access.
+
+![Screenshot (43)](https://user-images.githubusercontent.com/24196592/157509426-a8b0dcbb-3d15-4b18-9ee9-5fd016af9f88.png)
+Sales page displaying all sales activity in the store. When a new sale is made, a new record is created for that sale including the last four digits of the card that was used to make the purchase, The amount that was charged, the status of the transaction and the transaction ID. This page is only available to admin users.
+
+![Screenshot (44)](https://user-images.githubusercontent.com/24196592/157509747-acf5ef76-7a01-4eb6-9504-866f833b714a.png)
+Search page which is navigated to when the user searches for a listing. When a search is exectued, all listings that contain the specified pattern in the search text are return. All users - whether regular or admin, have access to this page. 
+
+
+
+
+
+
+ 
+
